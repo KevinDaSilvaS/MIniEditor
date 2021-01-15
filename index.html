@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/editor.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/actions.css">
+    <link rel="stylesheet" href="./css/text.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="actions">
+        <div class="action" id="addPage" onclick="addPage()">
+            <h3>Add Page</h3>
+        </div>
+        <div class="action" id="deletePage" onclick="deletePage()">
+            <h3>Delete Page</h3>
+        </div>
+        <div class="action" id="addTitle" onclick="addTextNode('TITLE', 1)">
+            <h3>Add Title</h3>
+        </div>
+
+        <div class="action" id="addTitle" onclick="window.print()">
+            <h3>Print Doc</h3>
+        </div>
+    </div>
+    <div id="editor">
+        <div class="page" id="page1" pageNumber="1"></div>
+        <script src="./js/globals.js"></script>
+        <script src="./js/page.js"></script>
+        <script src="./js/text.js"></script>
+    </div>
+    <div id="white-space"></div>
+</body>
+</html>

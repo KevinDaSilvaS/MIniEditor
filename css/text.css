@@ -1,0 +1,89 @@
+.text {
+    padding: 3%;
+}
+
+.edit-area {
+    margin: 2%;
+    padding: 1%;
+    width: 80%;
+}
+
+.elem-action {
+    width: 0%;
+    float: left;
+    padding-top: 1%;
+    margin-left: 6%;
+    margin-top: -4%;
+}
+
+.edit-btn {
+    float: right;
+    width: 10%;
+    margin-top: 4%;
+}
+
+@media print {
+    .elem-action {
+        display: none;
+    }
+}
+
+.CENTER {
+    text-align: center;
+} 
+
+.END {
+    text-align: end;
+} 
+
+.INHERIT {
+    text-align: inherit;
+} 
+
+.INITIAL {
+    text-align: initial;
+} 
+
+.JUSTIFY {
+    text-align: justify;
+}
+
+.LEFT {
+    text-align: left;
+} 
+
+.REVERT{
+    text-align: revert;
+} 
+
+.RIGHT {
+    text-align: right;
+}
+
+.START {
+    text-align: start;
+} 
+
+.UNSET {
+    text-align: unset;
+}
+
+.SYSTEM-UI {
+    font-family: system-ui;
+}
+
+.AUTO {
+    font-family: auto;
+}
+
+.CURSIVE {
+    font-family: cursive;
+}
+
+.FANTASY {
+    font-family: fantasy;
+} 
+
+.SANS-SERIF {
+    font-family: sans-serif;
+}

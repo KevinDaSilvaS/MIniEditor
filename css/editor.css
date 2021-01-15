@@ -1,0 +1,24 @@
+body {
+    background-color: #0f0013;
+}
+
+#editor {
+    width: 50%;
+    float: left;
+}
+
+#white-space {
+    width: 25%;
+    float: left;
+}
+
+@media print {
+    #editor {
+        width: 100%;
+        float: left;
+    }
+
+    #white-space {
+        display: none;
+    }
+}

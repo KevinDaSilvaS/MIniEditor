@@ -1,0 +1,19 @@
+.action {
+    background-color: aliceblue;
+    width: 33%;
+    padding: 5%;
+    margin: 2%;
+    text-align: center;
+    float: left;
+}
+
+#actions {
+    width: 25%;
+    float: left;
+}
+
+@media print {
+    #actions {
+        display: none;
+    }
+}
